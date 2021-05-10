@@ -1,0 +1,266 @@
+.header {
+height: 320px;
+width: 1280px;
+background-image: url('img/header.jpg');
+}
+
+h1 {
+font-variant: small-caps;
+font-weight: 900;
+font-size: 350%;
+font-style: italic;
+text-align: center;
+}
+
+h3 {
+font-size: 180%;
+font-style: normal;
+text-align: center;
+margin: 0;
+}
+
+h4 {
+font-size: 110%;
+font-style: normal;
+text-align: center;
+font-weight: normal;
+margin-top: 10;
+}
+
+h5 {	
+margin: 0;
+font-size: 150%;
+font-weight: bold;
+font-style: normal;
+text-align: center;
+margin-top: 5px;
+text-decoration: underline;
+color: white;
+}
+
+.div {
+height: 256px;
+width: 1280px;
+display: flex;
+}
+
+.logo {
+height: 192px;
+width: 192px;
+margin: 32px;
+}
+
+.class {
+height: 96px;
+width: 512px;
+margin-left: 160px;
+margin-top: 64px;
+}
+
+.date {
+height: 32px;
+width: 130px;
+margin-top: 32px;
+margin-left: 135px;
+background-color: deepskyblue;
+text-align: center;
+font-size: 120%;
+font-weight: bold;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial;
+line-height: 180%;
+}
+
+.main-menu {
+display: flex;
+height: 64px;
+width: 1280x;
+}
+
+.button {
+display: block;
+height: 64px;
+width: 320px;
+text-decoration: none;
+text-align: center;
+font-size: 120%;
+font-weight: bold;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial;
+line-height: 340%;
+border-radius: 7px;
+}
+
+.button:link {
+color: white;
+background-color: deepskyblue;
+}
+
+.button:hover {
+color: deepskyblue;
+background-color: white;
+border-bottom: 2px solid blue;
+}
+
+.button:active {
+color: white;
+background-color: dodgerblue;
+}
+
+.button:focus {
+color: white;
+background-color: deepskyblue;
+border-bottom: 2px solid white;
+}
+
+.section {
+height: 3320px;
+width: 1280px;
+margin-top: 10px;
+}
+
+.news {
+height: 3320px;
+width: 979px;
+margin-left: 20px;
+float: left;
+}
+
+.news-header {
+height: 30px;
+width: 544px;
+margin: 0;
+font-size: 150%;
+font-weight: bold;
+margin-top: 5px;
+text-decoration: underline;
+background-color: deepskyblue;
+}
+
+.news-block {
+height: 352px;
+width: 979px;
+display: flex;
+}
+
+.image {
+height: 352px;
+width: 544px;
+background-color: gray;
+}
+
+#nas {
+background-image: url('img/nas.jpg');
+}
+
+.news-content {
+height: 352px;
+width: 435px;
+}
+
+.read-more-button {
+display: block;
+height: 32px;
+width: 431px;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+font-size: 120%;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial;
+line-height: 180%;
+margin-top: 100px;
+}
+
+.read-more-button:link {
+color: white;
+background-color: deepskyblue;
+}
+
+.read-more-button:hover {
+color: deepskyblue;
+background-color: white;
+border: 2px solid blue;
+}
+
+.quick-access-menu {
+height: 256px;
+width: 256px;
+background-image: url('img/fonA.png');
+float: right;
+margin-right: 20px;
+position: sticky;
+top: 0;
+}
+
+.qam-link {
+display: block;
+height: 20px;
+width: 256px;
+font-size: 120%;
+border-bottom: 1px solid white;
+text-decoration: none;
+color: white;
+margin-top: 3px;
+background-color: rgba(255,245,215,0.7);
+}
+
+
+.qam-link:hover {
+color: deepskyblue;
+background-color: white;
+}
+
+.news-block1 {
+height: 352px;
+width: 979px;
+display: flex;
+margin-top: 5px;
+}
+
+footer {
+height: 140px;
+width: 1280px;
+}
+
+.logo1 {
+height: 96px;
+width: 96px;
+margin-left: 64px;
+}
+
+.copyright {
+height: 32px;
+width: 320px;
+}
+
+p {
+font-variant: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 200%;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+text-align: center;
+margin: 0;
+}
+
+.footer-links {
+height: 96px;
+width: 320px;
+margin-left: 288px;
+}
+
+.footer-links-block {
+height: 64px;
+width: 320px;
+display: flex;
+}
+
+.footer-link {
+height: 64px;
+width: 64px;
+background-color: blue;
+margin-left: 32px;
+}
+
+.footer {
+height: 96px;
+display: flex;
+}
